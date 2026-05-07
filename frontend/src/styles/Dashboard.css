@@ -1,0 +1,70 @@
+.dashboard {
+  padding: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  min-height: 100vh;
+  color: white;
+}
+
+.dashboard h1 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.dashboard-content {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.videos-section,
+.playlists-section {
+  flex: 1;
+  min-width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.videos-section h2,
+.playlists-section h2 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.dashboard ul {
+  list-style: none;
+  padding: 0;
+}
+
+.dashboard li {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+
+.dashboard li h3 {
+  margin: 0 0 10px 0;
+}
+
+.dashboard li p {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.dashboard button {
+  padding: 10px 20px;
+  background-color: #ff6b6b;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+.dashboard button:hover {
+  background-color: #ff5252;
+}
